@@ -84,7 +84,7 @@ function setting_on_click() {
 
 // Function for playback button click
 function playback_on_click() {
-    const story = "Once upon a time, ${choosenNoun1Display.textContent} ${choosenVerbDisplay.textContent} ${choosenAdjectiveDisplay.textContent} ${choosenNoun2Display.textContent} ${choosenSettingDisplay.textContent}."; // Construct the story
+    const story = `Once upon a time, ${choosenNoun1Display.textContent} ${choosenVerbDisplay.textContent} ${choosenAdjectiveDisplay.textContent} ${choosenNoun2Display.textContent} ${choosenSettingDisplay.textContent}.`; // Construct the story
     storyDisplay.textContent = story; // Display the story
 }
 
@@ -102,7 +102,7 @@ function random_on_click() {
     choosenNoun2Display.textContent = randomNoun2; // Display random noun2
     choosenSettingDisplay.textContent = randomSetting; // Display random setting
 
-    const story = "Once upon a time, ${randomNoun1} ${randomVerb} ${randomAdjective} ${randomNoun2} ${randomSetting}."; // Construct the story
+    const story = `Once upon a time, ${randomNoun1} ${randomVerb} ${randomAdjective} ${randomNoun2} ${randomSetting}.`; // Construct the story
     storyDisplay.textContent = story; // Display the story
 }
 
